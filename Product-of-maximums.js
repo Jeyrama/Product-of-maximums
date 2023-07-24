@@ -29,3 +29,12 @@ function maxProduct(numbers, size){
 }
 
 // or
+
+function maxProduct(numbers, size){
+  numbers = numbers.sort((a,b)=> b - a)
+  let result = 1
+  for(let i = 0; i < size; i++) {
+    result *= numbers[i]
+  }
+  return result
+}
