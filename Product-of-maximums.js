@@ -28,3 +28,4 @@ function maxProduct(numbers, size){
   .reduce((sum, el) => sum * el, 1);
 }
 
+// or
