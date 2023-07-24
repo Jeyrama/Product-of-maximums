@@ -17,3 +17,6 @@ Examples:
     Since the size (k) equal 3 , then the subsequence of size 3 whose 
     gives product of maxima is  8 * 9 * 10 = 720 .
 */
+
+
+// Solution
